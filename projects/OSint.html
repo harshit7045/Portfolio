@@ -1,0 +1,175 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <script src="https://cdn.tailwindcss.com"></script>
+    <title>OSint SaaS - (README)</title>
+</head>
+
+<body class=" text-gray-800 font-sans leading-relaxed antialiased backdrop-blur-sm"
+
+    background="../assets/images/parking-space-1487891_1280.jpg">
+    <header class="bg-[#0d7cf2] text-white shadow-lg sticky top-0 z-50 hidden md:flex">
+        <div class="container mx-auto px-6 py-4 flex justify-between items-center">
+            <a href="#" class="text-2xl font-bold">OSint SaaS -(Readme)</a>
+            <nav class="space-x-4 hidden md:flex">
+                <a href="#about" class="hover:text-teal-300">About</a>
+                <a href="#sites" class="hover:text-teal-300">Sites & Code</a>
+                <a href="#tech-stack" class="hover:text-teal-300">Tech Stack</a>
+                <a href="#video" class="hover:text-teal-300">YouTube Video</a>
+                <a href="#features" class="hover:text-teal-300">Features</a>
+      
+              
+            </nav>
+            <!-- Mobile Menu Toggle -->
+            <div class="md:hidden">
+                <button id="menu-toggle" class="focus:outline-none">
+                    <svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6" fill="none" viewBox="0 0 24 24"
+                        stroke="currentColor">
+                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                            d="M4 6h16M4 12h16M4 18h16" />
+                    </svg>
+                </button>
+            </div>
+        </div>
+        <!-- Mobile Menu -->
+        <div id="mobile-menu" class="md:hidden px-6 pb-4 hidden">
+            <a href="#about" class="block py-2 hover:bg-teal-600">About</a>
+            <a href="#sites" class="block py-2 hover:bg-teal-600">Sites & Code</a>
+            <a href="#tech-stack" class="block py-2 hover:bg-teal-600">Tech Stack</a>
+            <a href="#features" class="block py-2 hover:bg-teal-600">Features</a>
+         
+           
+        </div>
+    </header>
+
+    <div class="container mx-auto p-6 md:px-12 lg:px-24">
+        <div class="flex justify-center mb-10">
+            <img class="shadow-md rounded-lg h-60 w-3/4 md:w-1/2" src="../assets/images/image.png"
+                alt="Parking Aggregator Image">
+        </div>
+        <!-- Header Section -->
+        <header  id="about" class="border-b border-gray-300 pb-4 bg-white rounded-lg p-6 mb-6">
+            <h1 class="text-3xl font-bold text-[#0d7cf2]">OSint SaaS</h1>
+            <p class="text-lg text-gray-700 mt-2">This OSINT project offers Software as a Service (SaaS) for open-source intelligence gathering. It includes phone OSINT, email OSINT, social media OSINT, and reverse image search capabilities. Designed to streamline intelligence workflows, it provides comprehensive, accessible tools for investigative needs.</p>
+        </header>
+
+        <!-- Image Section -->
+
+
+        <!-- Demonstrations and Live Sites Section -->
+        <section class="bg-white p-6 rounded-lg shadow mb-10" id="sites">
+            <h2 class="text-2xl font-semibold text-[#0d7cf2] mb-4">Code and Live Sites</h2>
+            <p class="text-md text-gray-700 mb-6">You can check the  the project sites and code by clicking the buttons
+                below. You can also check the demonstration video of the project by scrolling below. Please use Login
+                Email: <code class="bg-gray-200 rounded p-1">1234@gmail.com</code>, Password: <code
+                    class="bg-gray-200 rounded p-1">12345678</code> (Note: These credentials will bypass all input
+                verifications).</p>
+            <div class="flex flex-wrap justify-center gap-4">
+                <a target="_blank" href="http://osint.harshitmishra.co.in">
+                    <img class="shadow-lg rounded-lg h-48 m-[5vw] w-64 hover:scale-105 transition-transform"
+                         src="../assets/images/image.png" alt="Client Site Image"> 
+                </a>
+                
+                
+            </div>
+            <div class="flex flex-wrap justify-center gap-4">
+                <a target="_blank" href="https://github.com/harshit7045/OSint-SaaS">
+                    <img class="hover:scale-105 transition-transform" src="https://img.icons8.com/?size=100&id=u9R54eMKS8fw&format=png&color=000000">
+                </a>
+            </div>
+        </section>
+
+        <!-- Tech Stack Section -->
+        <section id="tech-stack" class="bg-white p-6 rounded-lg shadow mb-10">
+            <div class="flex flex-wrap justify-center gap-4 mb-[5vh]">
+                <figure class="text-center">
+                    <img class="shadow-lg rounded-lg h-[35h] m-[5vw] w-[50vw] hover:scale-105 transition-transform" src="../assets/images/techstacksosint.png" alt="Tech Stacks used">
+                    <figcaption class="mt-2 text-gray-600">Tech Stack and Technologies Used</figcaption>
+                </figure>
+            </div>
+            
+            <h2 class="text-2xl font-semibold text-[#0d7cf2] mb-4">Tech Stack</h2>
+            <ul class="list-disc pl-6 space-y-2 text-gray-700">
+                <li><strong>Frontend:</strong> Developed using <strong>React</strong> and <strong>JavaScript</strong> for a responsive and user-friendly interface.</li>
+                <li><strong>Backend:</strong> Built with <strong>MongoDB</strong>, <strong>Node.js</strong>, and <strong>Express</strong> to handle data management and server operations.</li>
+                <li><strong>Multer:</strong> Used to store images on the backend for the reverse image search functionality, ensuring smooth image uploads and processing.</li>
+                <li><strong>Payment Integration:</strong> Uses <strong>Stripe</strong> as the payment aggregator to process secure transactions within the app.</li>
+                <li><strong>Instagram API:</strong> Integrated for accessing social media data as part of the OSINT features.</li>
+               
+                <li><strong>NumVerify API:</strong> Used to validate phone numbers, ensuring accurate and verified user data.</li>
+                <li><strong>Email Reverse Lookup API:</strong> Implemented to perform email verifications and enhance the OSINT services.</li>
+                <li><strong>SERP API:</strong> Utilized for reverse image search, allowing efficient OSINT image-based intelligence gathering.</li>
+            </ul>
+            
+            
+            <section class="bg-white   mb-10 mt-10 pt-6">
+                <h2 class="text-2xl font-semibold text-[#0d7cf2] mb-4">Deployment</h2>
+                <ul class="list-disc pl-6 space-y-2 text-gray-700">
+                    <li><strong>Deployed on AWS:</strong> The entire platform is hosted on AWS, ensuring high availability,
+                        scalability, and security for handling multiple users and large datasets.</li>
+                    <li><strong>Nginx:</strong> Used as a reverse proxy and load balancer for efficient and smooth
+                        deployment across servers, ensuring that traffic is evenly distributed and managed.</li>
+                </ul>
+            </section>
+        </section>
+        <section class="bg-white h-[70vh] rounded-lg p-6 mb-10 mt-10 " id="video">
+            <h2 class="text-2xl font-semibold text-[#0d7cf2] mb-4">Youtube Video</h2>
+            <iframe width="100%" height="90%" src="https://www.youtube.com/embed/ISAV9kJAqSQ?si=3M11JozU9Syp1Gyp" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+           
+        </section>
+        <!-- Features Section -->
+        <section class="bg-white p-6   rounded-lg shadow mb-10" id="features">
+            <h2 class="text-2xl font-semibold text-[#0d7cf2] mb-4">Features</h2>
+            <ul class="list-disc pl-6 space-y-2 text-gray-700">
+                <li><strong>SaaS Model:</strong> Operates on a pay-per-search basis, allowing users to pay as they go for each search performed.</li>
+                
+                <li><strong>User Account Management:</strong> 
+                    <ul class="list-disc pl-6">
+                        <li>Provides login, signup, and registration functionalities for easy account access.</li>
+                        <li>Includes a balance management system that lets users add funds via Stripe when their balance is low.</li>
+                    </ul>
+                </li>
+                
+                <li><strong>OSINT Services:</strong>
+                    <ul class="list-disc pl-6">
+                        <li><strong>Phone OSINT:</strong> Validates phone numbers and provides details like location, carrier, country, and line type.</li>
+                        
+                        <li><strong>Email OSINT:</strong> 
+                            <ul class="list-disc pl-6">
+                                <li>Checks email validity and disposability.</li>
+                                <li>Offers domain-related information such as MX, IP, and MX records.</li>
+                                <li>Detects email forwarders and confirms if an email is whitelisted.</li>
+                            </ul>
+                        </li>
+                        
+                        <li><strong>Social Media OSINT:</strong> Retrieves Instagram and Twitter profile data using just the username.</li>
+                        
+                        <li><strong>Reverse Image Search:</strong> 
+                            <ul class="list-disc pl-6">
+                                <li>Uses Google Reverse Image Search for image-based intelligence gathering.</li>
+                                <li>Employs Multer to upload and store images for analysis.</li>
+                            </ul>
+                        </li>
+                    </ul>
+                </li>
+            </ul>
+            
+        </section>
+        
+        
+
+        <!-- Additional Information Section -->
+        <section class="bg-gray-50 p-4 mt-10 border-t border-gray-200">
+            <p>For more details about this project, visit the <a href="http://osint.harshitmishra.co.in"
+                    class="text-[#0d7cf2] underline">official site</a>.</p>
+        </section>
+    </div>
+
+    <script src="../assets/js/script.js"></script>
+</body>
+
+</html>

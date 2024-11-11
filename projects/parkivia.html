@@ -1,0 +1,222 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <script src="https://cdn.tailwindcss.com"></script>
+    <title>Parking Lot Aggregator - README</title>
+</head>
+
+<body class=" text-gray-800 font-sans leading-relaxed antialiased backdrop-blur-sm"
+
+    background="../assets/images/parking-space-1487891_1280.jpg">
+    <header class="bg-teal-800 text-white shadow-lg sticky top-0 z-50 hidden md:flex">
+        <div class="container mx-auto px-6 py-4 flex justify-between items-center">
+            <a href="#" class="text-2xl font-bold">Parking Lot Aggregator  --(Readme)</a>
+            <nav class="space-x-4 hidden md:flex">
+                <a href="#about" class="hover:text-teal-300">About</a>
+                <a href="#sites" class="hover:text-teal-300">Sites & Code</a>
+                <a href="#tech-stack" class="hover:text-teal-300">Tech Stack</a>
+                <a href="#video" class="hover:text-teal-300">YouTube Video</a>
+                <a href="#features" class="hover:text-teal-300">Features</a>
+                <a href="#edge" class="hover:text-teal-300">Edge Cases</a>
+      
+              
+            </nav>
+            <!-- Mobile Menu Toggle -->
+            <div class="md:hidden">
+                <button id="menu-toggle" class="focus:outline-none">
+                    <svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6" fill="none" viewBox="0 0 24 24"
+                        stroke="currentColor">
+                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                            d="M4 6h16M4 12h16M4 18h16" />
+                    </svg>
+                </button>
+            </div>
+        </div>
+        <!-- Mobile Menu -->
+        <div id="mobile-menu" class="md:hidden px-6 pb-4 hidden">
+            <a href="#about" class="block py-2 hover:bg-teal-600">About</a>
+            <a href="#sites" class="block py-2 hover:bg-teal-600">Sites & Code</a>
+            <a href="#tech-stack" class="block py-2 hover:bg-teal-600">Tech Stack</a>
+            <a href="#features" class="block py-2 hover:bg-teal-600">Features</a>
+         
+           
+        </div>
+    </header>
+
+    <div class="container mx-auto p-6 md:px-12 lg:px-24">
+        <div class="flex justify-center mb-10">
+            <img class="shadow-md rounded-lg h-60 w-3/4 md:w-1/2" src="../assets/images/abc.png"
+                alt="Parking Aggregator Image">
+        </div>
+        <!-- Header Section -->
+        <header  id="about" class="border-b border-gray-300 pb-4 bg-white rounded-lg p-6 mb-6">
+            <h1 class="text-3xl font-bold text-teal-800">Parking Lot Aggregator (FASTag based)</h1>
+            <p class="text-lg text-gray-700 mt-2">This project is a <strong>parking lot aggregator platform just like
+                    Zomato</strong>, designed to make parking lot booking convenient for <strong>customers</strong> and
+                management easy for <strong>lot owners.</strong> It integrates with <strong>IoT (FASTag
+                    Solution)</strong> for automated parking management and real-time updates.</p>
+        </header>
+
+        <!-- Image Section -->
+
+
+        <!-- Demonstrations and Live Sites Section -->
+        <section class="bg-white p-6 rounded-lg shadow mb-10" id="sites">
+            <h2 class="text-2xl font-semibold text-teal-700 mb-4">Code and Live Sites</h2>
+            <p class="text-md text-gray-700 mb-6">You can check the  the project sites and code by clicking the buttons
+                below. You can also check the demonstration video of the project by scrolling below. Please use Login
+                Email: <code class="bg-gray-200 rounded p-1">1234@gmail.com</code>, Password: <code
+                    class="bg-gray-200 rounded p-1">12345678</code> (Note: These credentials will bypass all input
+                verifications).</p>
+            <div class="flex flex-wrap justify-center gap-4">
+                <a target="_blank" href="http://client.parkivia.harshitmishra.co.in">
+                    <img class="shadow-lg rounded-lg h-48 m-[5vw] w-64 hover:scale-105 transition-transform"
+                         src="../assets/images/parkiviaclient.png" alt="Client Site Image"> 
+                </a>
+                <a target="_blank" href="http://business.parkivia.harshitmishra.co.in">
+                    <img class="shadow-lg rounded-lg h-48 m-[5vw] w-64 hover:scale-105 transition-transform"
+                         src="../assets/images/Parkivia Business.png" alt="Business Site Image">
+                </a>
+                
+            </div>
+            <div class="flex flex-wrap justify-center gap-4">
+                <a target="_blank" href="https://github.com/harshit7045/Parking-service-aggregator-.git">
+                    <img class="hover:scale-105 transition-transform" src="https://img.icons8.com/?size=100&id=u9R54eMKS8fw&format=png&color=000000">
+                </a>
+            </div>
+        </section>
+
+        <!-- Tech Stack Section -->
+        <section id="tech-stack" class="bg-white p-6 rounded-lg shadow mb-10">
+            <div class="flex flex-wrap justify-center gap-4 mb-[5vh]">
+                <figure class="text-center">
+                    <img class="shadow-lg rounded-lg h-[35h] m-[5vw] w-[50vw] hover:scale-105 transition-transform" src="../assets/images/b.png.png" alt="Tech Stacks used">
+                    <figcaption class="mt-2 text-gray-600">Tech Stack and Technologies Used</figcaption>
+                </figure>
+            </div>
+            
+            <h2 class="text-2xl font-semibold text-teal-700 mb-4">Tech Stack</h2>
+            <ul class="list-disc pl-6 space-y-2 text-gray-700">
+                <li><strong>Lot Owner Site:</strong> Uses the <strong>MERN stack</strong> for creating a user-friendly
+                    interface for parking lot owners, allowing them to manage their parking spaces effectively.</li>
+                <li><strong>Redis:</strong> Implemented for caching, significantly reducing response times and improving
+                    data communication between the server and client by up to <strong>80%</strong>.</li>
+                <li><strong>Socket.io and Redis:</strong> Made a realtime scalable dashboard using redis and socket to sjow the status of parking lot effectively. </li>
+                <li><strong>IoT Module:</strong> The IoT integration uses <strong>ESP32</strong> to manage<strong> RFID (FASTag)</strong>-based
+                    entry and exit, providing automated and secure access for vehicles along with billing.</li>
+                <li><strong>Client Site:</strong> Built with the <strong>MERN stack</strong> (MongoDB, Express, React,
+                    and Node.js), which provides a robust, scalable framework for managing customer interactions and
+                    bookings.</li>
+                <li><strong>Mapbox API:</strong> Integrated to display dynamic, interactive maps of parking lots location based on lot pincode. </li>
+                <li><strong>Stripe:</strong> This project uses Stripe as the payment gateway, ensuring secure and
+                    seamless online transactions for parking bookings.</li>
+                <li><strong>Nodemailer:</strong> Integrated for sending automated email notifications to users about
+                    their booking confirmations and reminders.</li>
+
+            </ul>
+            
+            <section class="bg-white   mb-10 mt-10 pt-6">
+                <h2 class="text-2xl font-semibold text-teal-700 mb-4">Deployment</h2>
+                <ul class="list-disc pl-6 space-y-2 text-gray-700">
+                    <li><strong>Deployed on AWS:</strong> The entire platform is hosted on AWS, ensuring high availability,
+                        scalability, and security for handling multiple users and large datasets.</li>
+                    <li><strong>Nginx:</strong> Used as a reverse proxy and load balancer for efficient and smooth
+                        deployment across servers, ensuring that traffic is evenly distributed and managed.</li>
+                </ul>
+            </section>
+        </section>
+        <section class="bg-white h-[70vh] rounded-lg p-6 mb-10 mt-10 " id="video">
+            <h2 class="text-2xl font-semibold text-teal-700 mb-4">Youtube Video</h2>
+            <iframe width="100%" height="90%" src="https://www.youtube.com/embed/1V2hS91JkyU?si=8H1_kRoFJfOtdo-m" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+        </section>
+        <!-- Features Section -->
+        <section class="bg-white p-6   rounded-lg shadow mb-10" id="features">
+            <h2 class="text-2xl font-semibold text-teal-700 mb-4">Features</h2>
+            <ul class="list-disc pl-6 space-y-2 text-gray-700">
+                <li><strong>Customer and Owner Sites:</strong> The platform provides two different sites — one for
+                    <strong>customers</strong> to find and book parking spots, and another for <strong>owners</strong> to manage their parking lots,
+                    ensuring flexibility and ease of use for both user types.
+                </li>
+                <li><strong>Multiple Booking Methods:</strong> Customers can choose from three types of bookings:
+                    <ul class="list-disc pl-6">
+                        <li><strong>Hourly bookings:</strong> Book parking spaces for short durations.</li>
+                        <li><strong>Date-wise bookings:</strong> Reserve parking for an entire day or specific date ranges.</li>
+                        <li><strong>On-the-spot offline bookings:</strong> Book a parking space without pre-reserving, useful for walk-in customers.</li>
+                    </ul>
+                </li>
+                <li><strong>RFID(FASTag)-Based Automated Entry and Exit:</strong> The IoT module with <strong>RFID(FASTag) sensors</strong> automates
+                    vehicle entry and exit from parking lots, reducing the need for manual checks and increasing efficiency.
+                </li>
+                <li><strong>Optimized Parking Allocation:</strong> The system includes <strong>algorithms</strong> that help manage
+                    potential booking conflicts and optimize the use of parking spaces. For instance, the same parking space
+                    can accommodate multiple hour-wise bookings on the same day to maximize utilization.
+                </li>
+                <li><strong>Flexible Space Management:</strong> The platform supports two types of <strong>parking spaces</strong> — one
+                    reserved for online bookings and the other for offline, on-the-spot bookings. These spaces can be
+                    interchanged based on demand, ensuring maximum utilization of available parking lots.
+                </li>
+                <li><strong>Real-Time Dashboard:</strong> Owners can view and manage parking lot status in <strong>real time</strong>
+                    using <strong>Redis and Socket.io</strong>, which ensures that data is constantly updated and synchronized across the
+                    platform.
+                </li>
+                <li><strong>Email Notifications:</strong> Customers receive automatic email notifications about their
+                    bookings.
+                <li><strong>Interactive Map Integration:</strong> <strong>Mapbox</strong> is used to give customers a visual
+                    representation of  nearby location of parking lots, enhancing the user experience by providing clear and interactive maps.
+                </li>
+                <li><strong>Payment Integration with Stripe:</strong> The use of <strong>Stripe</strong> ensures secure, seamless, and
+                    quick transactions for customers making online bookings.
+                </li>
+            </ul>
+        </section>
+
+<section class="bg-white p-6 rounded-lg shadow mb-10" id="edge">
+    <h2 class="text-2xl font-semibold text-teal-700 mb-4">Edge Cases</h2>
+    <ul class="list-disc pl-6 space-y-2 text-gray-700">
+
+        <!-- Booking Edge Cases -->
+        <li><strong>Booking Edge Cases</strong></li>
+        <ul class="list-disc pl-6">
+            <li><strong>Hour-wise vs. Date-wise Conflicts:</strong>
+                <ul class="list-disc pl-6">
+                    <li>If there’s an hour-wise booking, a date-wise booking overlapping with that hour is not allowed on the same space.</li>
+                    <li>If there’s a date-wise booking, an hour-wise booking for the same space is not allowed during that date.</li>
+                </ul>
+            </li>
+            <li><strong>Multiple Hour-wise Bookings on a Single Day:</strong> Allow multiple hour-wise bookings on the same space, as long as the times don’t overlap.</li>
+            <li><strong>Space Optimization:</strong> Prioritize booking spaces efficiently to use the least possible spaces.</li>
+            <li><strong>Insufficient Balance:</strong> Prevent booking if the user has insufficient funds.</li>
+        </ul>
+
+        <!-- Vehicle Management Edge Cases -->
+        <li><strong>Vehicle Management Edge Cases</strong></li>
+        <ul class="list-disc pl-6">
+            <li><strong>Early Entry:</strong> A vehicle arrives before the specified booking time.</li>
+            <li><strong>Unauthorized Entry:</strong> A vehicle enters the lot without a booking.</li>
+            <li><strong>Late Entry:</strong> A vehicle arrives after the specified booking time.</li>
+            <li><strong>Overstay:</strong> A vehicle stays longer than the booking duration.</li>
+        </ul>
+
+        <!-- Lot Management Edge Case -->
+        <li><strong>Lot Management Edge Case</strong></li>
+        <ul class="list-disc pl-6">
+            <li><strong>Changing Lot Type with Active Booking:</strong> Prevent changing a walk-in lot to an online lot (and vice versa) if there’s an active booking on that space.</li>
+        </ul>
+
+    </ul>
+</section>
+
+        
+
+        <!-- Additional Information Section -->
+        
+    </div>
+
+    <script src="../assets/js/script.js"></script>
+</body>
+
+</html>
